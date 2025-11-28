@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "limits.h": "c",
-        "bitarray.h": "c"
+        "bitarray.h": "c",
+        "climits": "c"
     }
 }

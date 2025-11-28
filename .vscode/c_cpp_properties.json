@@ -2,15 +2,10 @@
     "configurations": [
         {
             "name": "Win32",
+            "compilerPath": "C:/application/MinGW/mingw64/bin/gcc.exe",  // 👈 添加这行
             "includePath": [
-                "${workspaceFolder}/**",
-                "C:/application/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include/c++/14.2.0",
-                "C:/application/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include/c++/14.2.0/x86_64-w64-mingw32",
-                "C:/application/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include/c++/14.2.0/backward",
-                "C:/application/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include",
-                "C:/application/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../include",
-                "C:/application/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/include-fixed",
-                "C:/application/MinGW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.2.0/../../../../x86_64-w64-mingw32/include"
+                "${workspaceFolder}/**"
+                // 👇 可以删掉下面所有手动 include 路径！compilerPath 会自动处理
             ],
             "defines": [
                 "_DEBUG",

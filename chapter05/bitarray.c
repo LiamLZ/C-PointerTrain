@@ -1,5 +1,5 @@
 #include "bitarray.h"
-#include <climits>
+#include <limits.h>
 
 unsigned character_offset(unsigned bit_number);
 unsigned bit_offset(unsigned bit_number);
